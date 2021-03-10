@@ -1,0 +1,113 @@
+img {
+    /* position: absolute; */
+    /* width: 1332px;
+    height: 354px;
+    left: 52px;
+    top: 420px; */
+    border-radius: 18px;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 16;
+    margin: 30px;
+}
+.home{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: auto;
+}
+.hometitle{
+    grid-column-start: 4;
+    grid-column-end:16;
+    grid-row-start: 2;
+}
+.text2{
+    grid-column-start: 4;
+    grid-column-end:16;
+    grid-row-start: 4;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+}
+.text3{
+    grid-column-start: 4;
+    grid-column-end:19;
+    grid-row-start: 5;
+}
+
+.question1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2D9CDB;
+    grid-column-start: 4;
+    grid-column-end:19;
+    grid-row-start: 1;
+}
+
+.question2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+    grid-column-start: 4;
+    grid-column-end:19;
+    grid-row-start: 6;
+}
+.contactform{
+    width: 350px;
+    height: 57px;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;   
+    align-items: center;
+    grid-column-start: 4;
+    grid-column-end:19;
+    grid-row-start: 7;
+}
+
+.rectangle32 {
+    width: 350px;
+    height: 57px;
+    left: 277px;
+    top: 1208px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    border: none;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #BDBDBD;  
+}
+.rectangle33 {
+    width: 94px;
+    height: 49px;
+    left: 529px;
+    top: 1212px;
+    background: #2D9CDB;
+    border-radius: 12px;
+    border: none;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F2F2F2;
+}

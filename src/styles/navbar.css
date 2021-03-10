@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap');
+
+.header{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: 1;
+}
+.brand{
+    grid-column-start: 2;
+    grid-column-end:19;
+    grid-row-start: 1;
+    margin-left: 20px;
+}
+.developer{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+}
+nav{
+    grid-column-start: 9;
+    grid-column-end:19;
+    grid-row-start: 1;
+}
