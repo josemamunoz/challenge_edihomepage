@@ -17,17 +17,17 @@ function Ourwork(){
                     <div className="product">Smart home dashboard</div>
                 </div>
                 <div className="design2">
-                    <img className="onboard" src={onboard}/>
+                    <img className="onboard" src={onboard} alt="onboard"/>
                     <div className="typeproduct">UX/UI design</div>  
                     <div className="product">Onboard application</div> 
                 </div>
                 <div className="design3">
-                    <img className="booking" src={booking}/>
+                    <img className="booking" src={booking} alt="booking" />
                     <div className="typeproduct">Mobile application</div>
                     <div className="product">Booking system</div>
                 </div>
                 <div className="design4">
-                    <img className="juice" src={juice}/>
+                    <img className="juice" src={juice} alt="juice" />
                     <div className="typeproduct">Front End application</div>
                     <div className="product">Juice product homepage</div>
                 </div>
