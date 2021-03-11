@@ -10,7 +10,7 @@ import Contact from "./contact"; */
 
 function Navbar(){
     return(
-        <div className="header">
+        <div className="navbar">
             <div className="brand">
                 <p className="developer">Edie</p>
             </div>
@@ -22,35 +22,35 @@ function Navbar(){
                 smooth={true}
                 offset={-70}
                 duration={500} 
-                className="navbar">Home</Link>
+                className="navitems">Home</Link>
                 <Link 
                 to="services" 
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="navbar">Services</Link>
+                className="navitems">Services</Link>
                 <Link 
                 to="ourworks"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500} 
-                className="navbar">Our Works</Link>
+                className="navitems">Our Works</Link>
                 <Link 
                 to="clients"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500} 
-                className="navbar">Clients</Link>
+                className="navitems">Clients</Link>
                 <Link 
                 to="contact" 
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
-                className="navbar">Contact</Link>
+                className="navitems">Contact</Link>
             </nav>
         </div>
     )

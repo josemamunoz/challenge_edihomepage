@@ -1,16 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap');
 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+nav{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+.navitems:hover{
+    color: #2D9CDB;
+    cursor: pointer;
+}
+.navitems{
+    margin: 20px;
+    padding: 20px;
+}
 .header{
     margin-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: 1;
+    border: solid 1px blue;
+    /* display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: 1; */
 }
 .brand{
-    grid-column-start: 2;
-    grid-column-end:19;
-    grid-row-start: 1;
     margin-left: 20px;
+    align-self: flex-start;
 }
 .developer{
     font-family: 'Heebo', sans-serif;
@@ -18,9 +39,4 @@
     font-weight: 800;
     font-size: 36px;
     line-height: 53px;
-}
-nav{
-    grid-column-start: 9;
-    grid-column-end:19;
-    grid-row-start: 1;
 }

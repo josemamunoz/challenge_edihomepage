@@ -1,57 +1,65 @@
-/* .services{
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: auto;
-    border: solid;
-} */
+.services{
+    display:flex;
+    flex-direction: column;
+    /* margin: 100px; */
+    margin: auto;
+}
 
-/* .cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-} */
 .offer{
-    grid-row-start: 1;
-    grid-column-start: 2;
-    grid-column-end: 18;
+    margin-bottom: 50px ;
+    margin-left: 210px;
 }
 .cards{
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: auto;
- 
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.card1:hover{
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
+}.card2:hover{
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
+}
+.card3:hover{
+    box-shadow: 5px 10px 18px #888888;
+    cursor: pointer;
 }
 .card1 {
+    transition: box-shadow .3s;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     grid-row-start: 1;
-    grid-column-start: 3;
-    grid-column-end: 7;
+    grid-column-start: 1;
     border-radius: 24px;
     margin: 10px;
     padding: 20px;
+    width: 320px;
 }
 .card2 {
+    transition: box-shadow .3s;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    grid-row: inherit;
-    grid-column-start: 7;
-    grid-column-end: 11;
+    grid-row: 1;
+    grid-column-start: 2;
     border-radius: 24px;
     margin: 10px;
     padding: 20px;
+    width: 320px;
 }
 .card3 {
+    transition: box-shadow .3s;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    grid-row: inherit;
-    grid-column-start: 11;
-    grid-column-end: 15;
+    grid-row: 1;
+    grid-column-start: 3;
     border-radius: 24px;
     margin: 10px;
     padding: 20px;
+    width: 320px;
 }
 .rectangle37{
     display: flex;
@@ -85,4 +93,10 @@
     top: 1661px;
     background: #EB5757;
     border-radius: 16px;
+}
+
+.startbutton:hover{
+    cursor: pointer;
+    background: #2D9CDB;
+    color: #F2F2F2;
 }

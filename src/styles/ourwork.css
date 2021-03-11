@@ -1,0 +1,92 @@
+.work {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: #333333;
+    width: 400px;
+    margin-left: 200px;
+}
+.designs{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: repeat(34, 50px);
+    margin: auto;
+    margin-top: 200px;
+}
+.typeproduct{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+    margin-left: 30px;
+}
+.product{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+    margin-left: 30px;
+}
+.smarthome, .onboard, .booking, .juice{
+    width: 100%;
+    height: auto;
+    border-radius: 24px;
+    transition: box-shadow .3s;
+}
+.smarthome:hover{
+    box-shadow: 5px 10px 18px #888888;
+}
+.onboard:hover{
+    box-shadow: 5px 10px 18px #888888;
+}
+.booking:hover{
+    box-shadow: 5px 10px 18px #888888;
+}
+.juice:hover{
+    box-shadow: 5px 10px 18px #888888;
+}
+.design1{
+    grid-row-start: 6;
+    grid-column-start: 1;
+    margin: auto;
+    flex-direction: column;
+}
+.design2{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    margin: auto;
+}
+.design3{
+    grid-row-start: 20;
+    grid-column-start: 1;
+    margin: auto;
+}
+.design4{
+    grid-row-start: 17;
+    grid-column-start: 2;
+    margin: auto;
+}
+.container1{
+    display: flex;
+    justify-content:flex-end ;
+    grid-row-start: 34;
+    grid-column-start: 2;
+    margin-right: 120px;
+}
+.more{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2D9CDB;
+}
+.more:hover{
+    cursor: pointer;
+}

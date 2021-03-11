@@ -3,14 +3,14 @@ import onboard from "../../img/onboard.png"
 import booking from "../../img/booking.png"
 import juice from "../../img/juice-product.png"
 
-
+import "../../styles/ourwork.css"
 
 function Ourwork(){
     return(
         <div className="ourwork" id="ourworks">
-            <p className="work">Good design means <br/>
-            good business</p>
+            
             <div className="designs">
+                <p className="work">Good design means good business</p>
                 <div className="design1">
                     <img className="smarthome" src={smarthome} alt="smarthome"/>
                     <div className="typeproduct">Full stack application</div>
@@ -38,6 +38,7 @@ function Ourwork(){
                     </a>
                 </div>
             </div>
+            
         </div>
     )
 }

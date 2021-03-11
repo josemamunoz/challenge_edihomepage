@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&family=Poppins&display=swap');
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
 body{
   margin: 30px;
   
@@ -47,16 +51,6 @@ p {
   line-height: 53px;
 }
 
-
-/* a {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    
-} */
-
 .title{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -77,86 +71,8 @@ p {
 }
 
 
-.work {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 54px;
-    color: #333333;
-}
-.designs{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(30, 50px);
-}
-.typeproduct{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 21px;
-    color: #828282;
-}
-.product{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    color: #333333;
-}
-.smarthome, .onboard, .booking, .juice{
-    width: 545px;
-    height: 545px;
-    border-radius: 24px;
-}
-.design1{
-    /* display: flex;
-    justify-content: center; */
-    width: 545px;
-    height: 545px;
-    border-radius: 24px;
-    grid-row-start: 4;
-    grid-column-start: 1;
-}
-.design2{
-    width: 545px;
-    height: 545px;
-    border-radius: 24px;
-    grid-row-start: 1;
-    grid-column-start: 2;
-}
-.design3{
-    width: 545px;
-    height: 545px;
-    border-radius: 24px;
-    grid-row-start: 18;
-    grid-column-start: 1;
-}
-.design4{
-    width: 545px;
-    height: 545px;
-    border-radius: 24px;
-    grid-row-start: 15;
-    grid-column-start: 2;
-}
-.container1{
-    border: solid;
-    display: flex;
-    justify-content:flex-end ;
-    grid-row-start: 29;
-    grid-column-start: 2;
-}
-.more{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    color: #2D9CDB;
-    
-}
+
+
 .offer{
     width: 346px;
     height: 108px;

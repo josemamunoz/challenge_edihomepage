@@ -19,12 +19,15 @@ export const Layout = () => {
 
 	return (
 		<div className="Layout">
-			<Navbar />
-			<Home/>
-			<Services/>
-			<Ourwork/>
-			<Clients/>
-			<Contact/>
+			<div className="container">
+				<Navbar />
+				<Home/>
+				<Services/>
+				<Ourwork/>
+				<Clients/>
+				<Contact/>
+			</div>
+			
 		</div>
 	);
 };
