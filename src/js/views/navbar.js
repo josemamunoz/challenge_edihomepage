@@ -38,6 +38,14 @@ function Navbar(){
                 duration={500} 
                 className="navitems">Our Works</Link>
                 <Link 
+                activeClass="active" 
+                to="us"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500} 
+                className="navitems">Us</Link>
+                <Link 
                 to="clients"
                 spy={true}
                 smooth={true}

@@ -11,6 +11,7 @@ import Services from "./js/views/services";
 import Ourwork from "./js/views/ourwork";
 import Clients from "./js/views/clients"
 import Contact from "./js/views/contact";
+import Us from "./js/views/us";
 
 
 
@@ -24,10 +25,10 @@ export const Layout = () => {
 				<Home/>
 				<Services/>
 				<Ourwork/>
+				<Us/>
 				<Clients/>
-				<Contact/>
 			</div>
-			
+			<Contact/>
 		</div>
 	);
 };

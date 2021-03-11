@@ -24,10 +24,6 @@ nav{
 }
 .header{
     margin-top: 10px;
-    border: solid 1px blue;
-    /* display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    grid-template-rows: 1; */
 }
 .brand{
     margin-left: 20px;

@@ -63,7 +63,7 @@ img {
     line-height: 21px;
     color: #828282;
     margin-left:15rem;
-
+    margin-bottom: 10px;
 }
 .contactform{
     width: 350px;
@@ -97,6 +97,7 @@ img {
     font-size: 18px;
     line-height: 27px;
     color: #BDBDBD;  
+    padding: 20px;
 }
 .rectangle33:hover {
     cursor: pointer;
@@ -120,6 +121,7 @@ img {
     font-size: 18px;
     line-height: 27px;
     color: #F2F2F2;
+    margin: 5px;
 }
 
 @media screen and (max-width: 1024px){

@@ -1,0 +1,93 @@
+ul{
+    list-style: none;
+}
+.linksexternos{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #F2F2F2;
+}
+.containerContact{
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    background-color: black;
+    color: #FFFFFF;
+    height: 350px;
+    width: 100%;
+}
+.contact{
+    grid-row: 1;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactusform{
+    width: 350px;
+    height: 57px;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;   
+    align-items: center;
+    grid-column-start: 6;
+    grid-column-end:19;
+    grid-row-start: 7;
+    margin-left:15rem;
+    border: none;
+    color: #F2F2F2;
+    
+}
+.question3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color:#F2F2F2;
+    margin-left:15rem;
+    margin-bottom: 10px;
+}
+.navigation{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+.footeritems{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+.footeritems:hover{
+    color: #2D9CDB;
+    cursor: pointer;
+}
+.socialmedia{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    color: #F2F2F2;
+}
+
+.socialmediaLinks img{
+    width: 24px;
+    margin: 3px;
+    
+}
+.credits{
+    background-color: black;
+    color: #FFFFFF;
+    padding-bottom: 50px;
+}

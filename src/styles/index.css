@@ -5,7 +5,7 @@
     box-sizing: border-box; 
 }
 body{
-  margin: 30px;
+  /* margin: 30px; */
   
 }
 h1{
@@ -28,7 +28,8 @@ p {
     margin: 20px;
 }
 .container{
-    margin: 30px;
+    min-height: 100vh;
+    margin: 80px;
 }
 
 .header{
