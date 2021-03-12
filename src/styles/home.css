@@ -141,10 +141,10 @@ img {
         font-size: 48px;
         line-height: 72px;
         color: #333333;
-        border:solid 1px gray;
+      
     }
     .text3{
-        border:solid 1px gray;
+     
     }
     
     .question1 {
@@ -154,7 +154,7 @@ img {
         font-size: 18px;
         line-height: 27px;
         color: #2D9CDB;
-        border:solid 1px gray;
+      
     }
     
     .question2 {
