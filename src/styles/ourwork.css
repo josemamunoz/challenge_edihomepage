@@ -1,3 +1,13 @@
+.ourwork{
+    display: flex;
+    flex-direction: column;
+}
+.ourworksContainer{
+    display: grid;
+    grid-template-columns: repeat(16, 100px);
+    grid-template-rows: repeat(18, 100px);
+    margin: auto;
+}
 .work {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -7,14 +17,10 @@
     color: #333333;
     width: 400px;
     margin-left: 200px;
-}
-.designs{
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: repeat(34, 50px);
+    grid-row: 1;
+    grid-column: 3;
     margin: auto;
-    margin-top: 200px;
-    margin-right: 100px;
+    margin-left: 30px;
 }
 .typeproduct{
     font-family: 'Poppins', sans-serif;
@@ -53,32 +59,44 @@
     box-shadow: 5px 10px 18px #888888;
 }
 .design1{
-    grid-row-start: 6;
-    grid-column-start: 1;
+    grid-row: 4;
+    grid-column: 3;
     margin: auto;
     flex-direction: column;
 }
+.design1 img{
+    width: 545px;
+}
 .design2{
-    grid-row-start: 3;
-    grid-column-start: 2;
+    grid-row: 2;
+    grid-column: 9;
     margin: auto;
+}
+.design2 img{
+    width: 545px;
 }
 .design3{
-    grid-row-start: 20;
-    grid-column-start: 1;
+    grid-row: 12;
+    grid-column: 3;
     margin: auto;
 }
+.design3 img{
+    width: 545px;
+}
 .design4{
-    grid-row-start: 17;
-    grid-column-start: 2;
+    grid-row: 10;
+    grid-column: 9;
     margin: auto;
+}
+.design4 img{
+    width: 545px;
 }
 .container1{
     display: flex;
     justify-content:flex-end ;
-    grid-row-start: 34;
-    grid-column-start: 2;
-    margin-right: 120px;
+    grid-row: 18;
+    grid-column: 13/15;
+    margin: auto;
 }
 .more{
     font-family: Poppins;

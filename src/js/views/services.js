@@ -5,8 +5,8 @@ import "../../styles/services.css"
 function Services(){
     return(
         <div className="services" id="services">
-            <p className="offer">We offer high <br/>
-            demand services</p>
+            <div className="servicesContainer">
+                <p className="offer">We offer high demand services</p>
                 <div className="cards">
                     <div className="card1">
                         <div className="rectangle37">
@@ -49,6 +49,7 @@ function Services(){
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
     )
 }
