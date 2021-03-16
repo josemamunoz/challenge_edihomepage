@@ -50,10 +50,28 @@ nav{
     background: transparent;
     margin: 5px;
 }
+@media screen and (max-width: 400px){
+    .navbar{
+        
+    }
+    .dropdown{
+        display:contents;
+    }
+    nav{
+        font-size: 18px;
+    }
+    .navitems{
+        margin: 5px;
+       /*  padding: 5px; */
+    }
+    .developer{
+        font-size: 24px;
+    }
+}
 
 @media screen and (max-width: 1024px){
     .navbar{
-        
+
     }
     .dropdown{
         display: none;

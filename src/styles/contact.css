@@ -182,3 +182,75 @@ ul{
     margin: 5px;
 }
 }
+@media screen and (max-width: 414px){
+
+    .linksexternos{
+        font-size: 12px;
+    }
+    .contact{
+        display: flex;
+        margin: 0;
+        padding: 20px;
+        background-color: #100E1D;
+        width: 100vw;
+    }
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        
+    }
+    .contactUs{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .contactusform{
+        margin: 20px 0 20px 0;
+    }
+    .question3 {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0;
+    }
+    .navigation{
+        font-size: 18px;
+        line-height: 100%;
+        margin: 20px 0 20px 0;
+    }
+    .footeritems{
+        font-size: 14px;
+    }
+    .socialmedia{
+        font-size: 28px;
+        line-height: 33px;
+        margin: 20px 0 20px 0;
+    }
+    
+    .socialmediaLinks img{
+        width: 24px;
+        margin: 3px;
+        
+    }
+    .credits{
+        grid-column: 2/6;
+        grid-row: 3;
+        margin: auto;
+    }
+    
+    .rectangle32 {
+        width: 200px;
+        height: 30px;
+        font-size: 12px;
+        padding: 20px;
+    }
+    .rectangle33 {
+        width: 50px;
+        font-size: 12px;
+        height: 30px;
+        margin: 5px;
+    }
+    }
+    

@@ -138,65 +138,7 @@ img {
 }
 
 
-@media screen and (max-width: 400px){
-    .homeContainer{
-        display: flex;
-    }
-    .question1{
-        font-size: 12px;
-    }
-    .hometitle{
-        font-size: 24px;
-    }
-    img{
-        grid-column: 1;
-        grid-row: 4/7;
-    }
-    .text2{
-        font-size: 24px;
-    }
-    .text3{
-        font-size: 12px;
-    }
- 
-    .question2 {
-        font-size: 10px;
-    }
-    .contactform{
-        width: 291px;
-        height: 47px;
-        display: grid;
-        grid-template-columns: 3;
-        grid-template-rows: 1;   
-        align-items: center;
-        grid-column: 4;
-        grid-row: 13;
-        border: none;
-        grid-column: 4/6;
-        margin:auto;
-    }
-    
-    .rectangle32 {
-        width: 350px;
-        height: 57px;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        grid-column-start: 1;
-        grid-column-end: 3; 
-        font-size: 18px;  
-        padding: 20px;
-    }
-    .rectangle33 {
-        width: 71px;
-        height: 39px;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        grid-column-start: 2;
-        grid-column-end: 3;  
-        font-size: 18px;
-        margin: 5px;
-    }
-}
+
 @media screen and (max-width: 1024px){
     .homeContainer{
         display: grid;
@@ -262,5 +204,69 @@ img {
         grid-column-end: 3;  
         font-size: 18px;
         margin: 5px;
+    }
+}
+@media screen and (max-width: 415px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .homeContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .question1{
+        font-size: 12px;
+    }
+    .hometitle{
+        width: 85vw;
+        font-size: 24px;
+        line-height: 45px;
+    }
+    img {
+        width: 90vw;
+        margin: 3vw;
+        border-radius: 12px;
+    }
+    .text2{
+        font-size: 24px;
+    }
+    .text3{
+        font-size: 12px;
+    }
+ 
+    .question2 {
+        font-size: 10px;
+    }
+    .contactform{
+        width: 350px;
+        height: 57px;
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 1;   
+        align-items: center;
+        border: none;
+        margin:auto;
+    }
+    
+    .rectangle32 {
+        width: 350px;
+        height: 57px;
+        left: 277px;
+        top: 1208px;
+        background: #F2F2F2;
+        border-radius: 12px;
+        border: none;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 3; 
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #BDBDBD;  
+        padding: 20px;
     }
 }
