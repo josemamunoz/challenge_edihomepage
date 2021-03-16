@@ -34,7 +34,7 @@ function Contact(){
                     </div>
                     <div className="contactUs">
                         <p className="question3">
-                        Whant us to contact you?
+                            Whant us to contact you?
                         </p>
                         <form className="contactusform">
                             <input className="rectangle32" type="email" name="mail" placeholder="Email"/>

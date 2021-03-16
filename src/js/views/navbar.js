@@ -1,12 +1,6 @@
 import "../../styles/navbar.css"
-/* import { Link } from "react-router-dom"; */
-import {Link} from 'react-scroll';
 
-/* import Home from "./home";
-import Services from "./services";
-import Ourwork from "./ourwork";
-import Clients from "./clients"
-import Contact from "./contact"; */
+import {Link} from 'react-scroll';
 
 function Navbar(){
     return(
@@ -60,6 +54,16 @@ function Navbar(){
                 duration={500}
                 className="navitems">Contact</Link>
             </nav>
+            <div className="dropdown">
+                <button className="dropbtn"> 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div className="hamburguer">
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                </div>
+            </div> 
         </div>
     )
 }

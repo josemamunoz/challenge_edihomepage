@@ -84,3 +84,50 @@
     margin: 10px;
     justify-self: center;
 }
+
+@media screen and (max-width: 1024px){
+    .us{
+        margin-top: 100px;
+        display: flex;
+        margin-bottom: 100px;
+    }
+    .usContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, 100px);
+        margin: auto;
+
+    }
+    .usContent{
+        grid-column: 1;
+        grid-row: 1/3;
+    }
+    .usImg{
+        width: 300px;
+        grid-column: 2;
+        grid-row: 1/3;
+    }
+    
+    #person1{
+        width: 130px;
+        height: 130px;
+        border-radius: 12px;
+        /* grid-column: 2;
+        grid-row: 1; */
+        margin: 5px;
+    }
+    #person2{
+        width: 145px;
+        border-radius: 12px;
+        height: auto;
+        margin: 5px;
+    }
+    #person3{
+        width: 160px;
+        height: 160px;
+        border-radius: 12px;
+        /* grid-column: 1;
+        grid-row: 1/3; */
+        margin: 5px;
+    }
+}

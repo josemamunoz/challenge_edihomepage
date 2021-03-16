@@ -26,9 +26,6 @@ p {
     line-height: 27px;
     color: #4F4F4F;
 }
-.navbar{
-    margin: 20px;
-}
 
 .header{
     font-family: 'Poppins', sans-serif;
@@ -39,7 +36,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   /*  width: 100%; */
     
 }
 .brand{
@@ -94,20 +90,4 @@ p {
     font-size: 16px;
     line-height: 24px;
     color: #828282;
-}
-.credits{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #F2F2F2;
-    text-align: center;
-}
-
-.material-icons{
-    color: #2D9CDB ;
-    outline: #2D9CDB;
-    background-color: #2D9CDB;
-    -webkit-background-clip:content-box ;
 }

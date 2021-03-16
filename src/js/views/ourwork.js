@@ -30,10 +30,10 @@ function Ourwork(){
                         <div className="typeproduct">Front End application</div>
                         <div className="product">Juice product homepage</div>
                     </div>
-                    <div className="container1">
+                    <div className="container2">
                         <a className="more">see more 
                             <span className="material-icons">
-                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"/></svg>                            </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#2D9CDB"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"/></svg>                            </span>
                         </a>
                     </div>
                 </div>

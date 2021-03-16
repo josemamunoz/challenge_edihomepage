@@ -16,10 +16,7 @@ function Clients(){
                     </div>
                 </div>
             </div>
-        </div>
-        
-            
-        
+        </div>  
     )
 }
 
