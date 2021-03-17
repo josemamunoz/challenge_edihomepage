@@ -10,7 +10,7 @@ function Home(){
                 <img src={heroImage} alt="HeroImage"/>
                 <h1 className="text2">Story, emotion and purpose</h1>
                 <p className="text3">We help transform your ideas into real
-                world applications that will outperform your toughest competition and help you <br/>
+                world applications that will outperform your toughest competition and help you
                 achieve your strategic goals in short period of time.</p>
                 <p className="question2">
                     Whant us to contact you?

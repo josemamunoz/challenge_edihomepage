@@ -124,6 +124,67 @@
         margin: auto;
     }
 }
+@media screen and (max-width: 770px){
+    .clients{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .clientsContainer{
+        display: grid;
+        grid-template-columns: repeat(10, 10vw);
+        grid-template-rows: repeat(2, auto);
+        margin: auto;
+    }
+    
+    .clientsSupport{
+        grid-row: 1;
+        grid-column: 2/9;
+    }
+    .message{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        width: 60vw; 
+    }
+    .firstClient{
+        width: 400px;
+        margin-top: 1vw;
+        margin-bottom: 10vw;
+    }
+    .clientsName{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        width: auto;
+        grid-column: 2/6;
+        grid-row: 1;
+        margin: 10px 0 0 20px;
+    }
+    .clientsCompany{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 27px;
+        width: auto;
+        grid-column: 2/6;
+        grid-row: 2;
+        margin: 10px 0 0 20px;
+    }
+    #person4{
+        width: 82px;
+        height: 82px;
+        border-radius: 12px;
+        grid-column: 1;
+        grid-row: 1/3;
+        margin: auto;
+    }
+}
 @media screen and (max-width: 414px){
     .clients{
         display: flex;

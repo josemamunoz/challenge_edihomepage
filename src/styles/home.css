@@ -148,6 +148,7 @@ img {
     }
     .hometitle{
         font-size: 36px;
+        line-height: 58px;
         grid-column: 2;
     }
     img {
@@ -159,15 +160,16 @@ img {
     }
     .text2{
         font-size: 36px;
-        line-height: 72px;
+        line-height: 58px;
         grid-column: 2;
         grid-row: 7;
-        margin-top: 1vw;
+        margin-top: 0.5vh;
+        width: 30vw;
     }
     .text3{
         font-size: 14px;
         grid-column: 2;
-        margin-top: 3vw;
+        margin-top: 1vw;
     }
     
     .question1 {
@@ -178,11 +180,12 @@ img {
     .question2 {
         font-size: 10px;
         grid-column: 2;
-        margin-top: 5vw;
+        margin-top: 1vh;
     }
     .contactform{
         grid-column: 2;
-        margin-bottom: 5vw;
+        margin-bottom: 5vh;
+        width: 20vw;
     }
     
     .rectangle32 {
@@ -206,6 +209,67 @@ img {
         margin: 5px;
     }
 }
+@media screen and (max-width: 770px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .homeContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .question1{
+        font-size: 12px;
+        margin: 0 10vw 2vw 15vw;
+    }
+    .hometitle{
+        width: 40vw;
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 10vw 0 15vw;
+    }
+    img {
+        width: 85vw;
+        margin: 5vw;
+        border-radius: 12px;
+    }
+    .text2{
+        font-size: 24px;
+        width: 40vw;
+        line-height: 32px;
+        margin: 0 10vw 3vw 15vw;
+    }
+    .text3{
+        width: 40vw;
+        font-size: 12px;
+        margin: 0 10vw 0 15vw;
+    }
+ 
+    .question2 {
+        font-size: 10px;
+        margin: 5vw 10vw 0 15vw;
+    }
+    .contactform{
+        width: 50vw;
+        height: 57px;
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 1;   
+        border: none;
+        margin: 0 10vw 0 15vw;
+    }
+    
+    .rectangle32 {
+        border-radius: 8px;
+        padding: 20px;
+    }
+    .rectangle33 {
+        border-radius: 8px;
+        margin: 5px;
+    }
+}
+
 @media screen and (max-width: 415px){
     .home{
         display: flex;
