@@ -202,7 +202,8 @@ span svg{
     }
     .work {
         font-size: 24px;
-        margin-left: 50px;
+        line-height: 34px;
+        margin-left: 10vw;
         margin-bottom: 50px;
         width: 80vw;
     }

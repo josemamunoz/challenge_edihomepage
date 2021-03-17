@@ -5,12 +5,19 @@
     align-items: center;
     justify-content:space-between;
     padding: 20px;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     width: 100%;
+    height: 10vh;
+    margin: 20px; */
     background-color: white;
- /*    box-shadow: 1px 1px 1px #888888; */
+
 }
+button{
+    background-color: transparent;
+    border: none;
+}
+
 nav{
     font-family: Poppins;
     font-style: normal;
@@ -25,7 +32,7 @@ nav{
 }
 .navitems{
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 .header{
     margin-top: 10px;
@@ -40,9 +47,13 @@ nav{
     font-weight: 800;
     font-size: 36px;
     line-height: 53px;
+    margin: 15px;
+    /* position: absolute; */
 }
 .dropdown{
     display: none;
+    justify-content: space-between;
+
 }
 .hamburguer{
     width: 30px;
@@ -50,14 +61,163 @@ nav{
     background: transparent;
     margin: 5px;
 }
+
+@media screen and (max-width: 1128px){
+    .navbar{
+        display: flex;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    nav{
+        font-size: 18px;
+        justify-self: right;
+        margin: 5px;
+        padding: 5px;
+    }
+    .navitems{
+        margin: 5px;
+        padding: 5px;
+    }
+    nav #hidden{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav{
+        font-size: 18px;
+        justify-self: right;
+        margin: 2px;
+        padding: 2px;
+    }
+    nav #hidden{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .developer{
+        font-size: 30px;
+    }
+    .line{
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin: 5px;
+    }
+}
+@media screen and (max-width: 650px){
+    .navbar{
+        position: inherit;
+        align-items: flex-start;
+    }
+    .developer{
+        justify-self: left;
+        font-size: 24px;
+        width: 20vw;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    #hidden{
+        display: none;
+    }
+    .dropdown{
+        display: flex;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #333333;
+        margin: 10px;
+        justify-content: start;
+        align-items: flex-start;
+
+    }
+    .dropitems:hover{
+        color: #2D9CDB;
+        cursor: pointer;
+    }
+    .dropbtn:hover{
+        color: #2D9CDB;
+        cursor: pointer;
+    }
+    .dropdown ul li {
+        margin: 10px;
+        
+    }
+}
+@media screen and (max-width: 550px){
+    .developer{
+        font-size: 24px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column; 
+        font-size: 18px;
+    }
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #333333;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .dropitems:hover{
+        color: #2D9CDB;
+        cursor: pointer;
+    }
+    .navitems{
+        margin: 5px;
+    }
+    .developer{
+        font-size: 24px;
+    }
+    .hamburguer{
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin: 5px;
+    }
+}
 @media screen and (max-width: 400px){
     .navbar{
         
     }
     .dropdown{
-        display:contents;
+        display: flex;
+        flex-direction: column;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #333333;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .dropitems:hover{
+        color: #2D9CDB;
+        cursor: pointer;
     }
     nav{
+        display: flex;
+        flex-direction: column; 
         font-size: 18px;
     }
     .navitems{
@@ -66,23 +226,10 @@ nav{
     .developer{
         font-size: 24px;
     }
-}
-
-@media screen and (max-width: 1024px){
-    .navbar{
-
-    }
-    .dropdown{
-        display: none;
-    }
-    nav{
-        font-size: 18px;
-    }
-    .navitems{
+    .hamburguer{
+        width: 30px;
+        height: 3px;
+        background: black;
         margin: 5px;
-       /*  padding: 5px; */
-    }
-    .developer{
-        font-size: 30px;
     }
 }

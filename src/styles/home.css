@@ -9,7 +9,7 @@ img {
 .home{
     display: flex;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 5vh;
 }
 .homeContainer{
     margin-top: 100px;
@@ -31,11 +31,11 @@ img {
     grid-row: 1/1;
     grid-column: 4/6;
     margin: auto;
+    margin-bottom: 20px;
 }
 .hometitle{
     justify-self: center;
     margin-left:15rem;
-    margin-top: 20px;
     margin: auto;
     width: 550px;
     grid-row: 2/3;
@@ -52,7 +52,8 @@ img {
     grid-column: 4;
     grid-row: 8/9;
     margin:auto;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .text3{
     margin-left:15rem;
@@ -63,6 +64,7 @@ img {
     grid-row: 10/12;
     margin: auto;
     font-size: 18px;
+    margin-bottom: 20px;
 }
 .question2 {
     font-family: 'Poppins', sans-serif;
@@ -77,6 +79,7 @@ img {
     grid-row: 12/13;
     margin: auto;
     width: 300px;
+    margin-bottom: 10px;
 }
 .contactform{
     width: 350px;
@@ -90,8 +93,8 @@ img {
     border: none;
     grid-column: 4/6;
     margin:auto;
+    margin-bottom: 100px;
 }
-
 .rectangle32 {
     width: 350px;
     height: 57px;
@@ -115,7 +118,6 @@ img {
 .rectangle33:hover {
     cursor: pointer;
 }
-
 .rectangle33 {
     width: 94px;
     height: 49px;
@@ -136,8 +138,6 @@ img {
     color: #F2F2F2;
     margin: 5px;
 }
-
-
 
 @media screen and (max-width: 1024px){
     .homeContainer{
@@ -214,59 +214,55 @@ img {
     .homeContainer{
         display: flex;
         flex-direction: column;
+        width: 100vw;
     }
     .question1{
         font-size: 12px;
+        margin: 0 10vw 2vw 10vw;
     }
     .hometitle{
-        width: 85vw;
+        width: 80vw;
         font-size: 24px;
-        line-height: 45px;
+        line-height: 32px;
+        margin: 0 10vw 0 10vw;
     }
     img {
-        width: 90vw;
-        margin: 3vw;
+        width: 85vw;
+        margin: 5vw;
         border-radius: 12px;
     }
     .text2{
         font-size: 24px;
+        width: 80vw;
+        line-height: 32px;
+        margin: 0 10vw 5vw 10vw;
     }
     .text3{
+        width: 80vw;
         font-size: 12px;
+        margin: 0 10vw 0 10vw;
     }
  
     .question2 {
         font-size: 10px;
+        margin: 0 10vw 0 10vw;
     }
     .contactform{
-        width: 350px;
+        width: 50vw;
         height: 57px;
         display: grid;
         grid-template-columns: 3;
         grid-template-rows: 1;   
-        align-items: center;
         border: none;
-        margin:auto;
+        margin: 0 10vw 0 10vw;
     }
     
     .rectangle32 {
-        width: 350px;
-        height: 57px;
-        left: 277px;
-        top: 1208px;
-        background: #F2F2F2;
-        border-radius: 12px;
-        border: none;
-        grid-row-start: 1;
-        grid-row-end: 1;
-        grid-column-start: 1;
-        grid-column-end: 3; 
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 27px;
-        color: #BDBDBD;  
+        border-radius: 8px;
         padding: 20px;
+    }
+    .rectangle33 {
+        border-radius: 8px;
+        margin: 5px;
     }
 }

@@ -1,3 +1,4 @@
+
 .services{
     display:flex;
     flex-direction: column;
@@ -141,11 +142,12 @@
         grid-template-columns: repeat(10, 10vw);
         grid-template-rows: repeat(10, auto);
     }
-    
+
     .offer{
         grid-row: 1/1;
         grid-column: 1/6;
         font-size: 36px;
+        line-height: 40px;
     }
     .cards{
         margin: auto;
@@ -214,9 +216,11 @@
     }
     
     .offer{
+        margin-left: 10vw;
         margin-top: 100px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         font-size: 24px;
+        line-height: 34px;
         grid-row: 1/1;
         grid-column: 4/6;
     }
